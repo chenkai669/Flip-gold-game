@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/xiaoyuanbao.png</file>
+        <file>Image/back.png</file>
+        <file>Image/background.jpg</file>
+        <file>Image/beijingtubiao.jpg</file>
+        <file>Image/start.png</file>
+        <file>Image/bac.png</file>
+        <file>Image/bac1.png</file>
+        <file>Image/guanka.jpg</file>
+        <file>Image/jinbi.jpg</file>
+        <file>Image/yinbi.jpg</file>
+        <file>Image/beijing.jpg</file>
+    </qresource>
+</RCC>
