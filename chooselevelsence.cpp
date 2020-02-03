@@ -37,6 +37,7 @@ ChooseLevelSence::ChooseLevelSence(QWidget *parent) : QMainWindow(parent)
     {
         MyPushButton *menuBtn = new MyPushButton(":/Image/guanka.png");
         menuBtn->setParent(this);
+        //menuBtn->setAttribute(Qt::WA_DeleteOnClose);
         menuBtn->move(25 + i%4 * 70,130 + i/4 * 70);
         //监听按钮信号
         connect(menuBtn,&QPushButton::clicked,[=](){

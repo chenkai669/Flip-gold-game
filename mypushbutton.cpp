@@ -66,7 +66,7 @@ void MyPushButton::mousePressEvent(QMouseEvent *e)
         //设置图标大小
         this->setIconSize(QSize(pix.width()*0.3,pix.width()*0.3));
     }
-    return QPushButton::mousePressEvent(e);
+    return QPushButton::mousePressEvent(e);//将其余事件交还给系统
 }
 void MyPushButton::mouseReleaseEvent(QMouseEvent *e)
 {

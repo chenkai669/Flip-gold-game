@@ -2,6 +2,7 @@
 #define DISPLAYSENCE_H
 
 #include <QMainWindow>
+#include "mycoin.h"
 
 class displaysence : public QMainWindow
 {
@@ -18,6 +19,9 @@ public slots:
 
 private:
     int levelIndex;
+    int gameArray[4][4];
+    MyCoin *coinbtn[4][4];
+    bool isWin = false;
 };
 
 #endif // DISPLAYSENCE_H

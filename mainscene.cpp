@@ -48,15 +48,10 @@ void MainScene::paintEvent(QPaintEvent *event)
     QPixmap pix;
     pix.load(":/Image/background.jpg");
     painter.drawPixmap(0,0,this->width(),this->height(),pix);
-
-
-
     pix.load(":/Image/beijingtubiao.jpg");
     //图片缩放
     pix = pix.scaled(pix.width()*0.7,pix.height()*0.8);
     painter.drawPixmap(0,30,80,80,pix);
-
-
 }
 
 MainScene::~MainScene()
